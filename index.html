@@ -60,11 +60,7 @@
                 </div>
             </div>
 
-
         </nav>
-
-
-
     </header>
 
     <main>
@@ -361,6 +357,7 @@
             <p class="pp">Disclosure</p>
         </div>
     </div>
+
     <script>
         const sidebar = document.querySelector("#sidebar");
         const close = document.querySelector(".close");
@@ -373,6 +370,7 @@
 
         close.addEventListener("click", () => {
             sidebar.style.right = "-100%";
+            sidebar.style.display = "none";
         });
 
         document.querySelectorAll('.faq-item').forEach(item => {
