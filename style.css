@@ -657,7 +657,7 @@ nav {
 }
 .left-money p{
     width: 50%;
-    color: rgb(106, 69, 69);
+    color: #A8E6CF;
 }
 .left-money button{
     padding: 10px 18px;
@@ -699,7 +699,6 @@ nav {
     gap: 30px;
     color:  #ddd;
 }
-
 
 .footer {
     width: 100%;
@@ -1194,7 +1193,7 @@ nav {
     }
 
     .brand {
-        font-size: 12px;
+        font-size: 10px;
         color: #1C3F3A;
     }
 
