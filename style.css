@@ -1289,6 +1289,9 @@ nav {
   .about-left{
     padding-right: 20px;
   }
+  .footer-category{
+    gap: 5px;
+  }
     
 }
 
