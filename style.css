@@ -29,7 +29,9 @@ body {
     font-weight: bold;
 }
 
-
+.close p{
+    color: white;
+}
 nav {
     padding: 10px 20px;
     display: flex;
@@ -106,6 +108,7 @@ nav {
 
 
 #sidebar {
+    z-index: 999;
     height: 100vh;
     width: 50%;
     background-color: #1C3F3A;
@@ -1282,6 +1285,9 @@ nav {
   }
   .about{
     margin-bottom: 80px;
+  }
+  .about-left{
+    padding-right: 20px;
   }
     
 }
